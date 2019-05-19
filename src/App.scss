@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  list-style:none;
+}
+
+.collapsible {
+margin: 1em 0;
+border: 1px solid blue;
+
+}
+
+.collapsible__trigger {
+cursor: pointer;
+}
+
+.collapsible__panel {
+display: none;
+}
+
+
+//por defecto el elemento panel se mantiene oculto (=colapsable cerrado).
+//cuando haga click daré un cambio de clases, para que se muestre el panel (=colapsable abierto)
+
+.collapsible--open{} 
+.collapsible--open .collapsible__panel{
+display: block;
+}
+
+//Y le voy a decir que el panel, cuando esté dentro de esta nueva clase, tiene que verse
+//Compuebo a mano si funciona poniendole la clase a mano, para estatr seguros de que el sistema funciona, y entonces ahora lo programo.
+
